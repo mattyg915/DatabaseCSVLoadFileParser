@@ -9,9 +9,7 @@ with open('origin_table.csv') as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='|')
     for row in reader:
         id_one = row[0]
-        actor_id = row[1]
         ids_to_keep.append(id_one)
-        actors_to_keep.append(actor_id)
 
 with open('origin_table.csv') as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='|')
