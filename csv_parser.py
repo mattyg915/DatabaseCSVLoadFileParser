@@ -1,7 +1,6 @@
 import csv
 
 ids_to_keep = []
-actors_to_keep = []
 new_list = []
 
 i = 0
